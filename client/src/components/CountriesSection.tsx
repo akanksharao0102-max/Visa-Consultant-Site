@@ -4,29 +4,29 @@ import { MapPin, ArrowRight, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const countries = [
-  { name: "USA", flag: "US", color: "from-red-500 to-blue-600", description: "Top-ranked universities with world-class research facilities and diverse campus life." },
-  { name: "UK", flag: "GB", color: "from-blue-600 to-red-500", description: "Prestigious institutions with centuries of academic excellence and global recognition." },
-  { name: "Canada", flag: "CA", color: "from-red-500 to-red-700", description: "Welcoming immigration policies, affordable education, and excellent post-study work options." },
-  { name: "Australia", flag: "AU", color: "from-blue-500 to-yellow-500", description: "High-quality education system with strong focus on research and innovation." },
-  { name: "New Zealand", flag: "NZ", color: "from-blue-800 to-cyan-500", description: "Safe, friendly environment with globally recognized qualifications." },
-  { name: "Dubai", flag: "AE", color: "from-green-500 to-red-500", description: "Emerging educational hub with international campuses and career opportunities." },
-  { name: "France", flag: "FR", color: "from-blue-600 to-red-500", description: "Rich cultural heritage with top business schools and affordable public universities." },
-  { name: "Germany", flag: "DE", color: "from-yellow-500 to-red-600", description: "Tuition-free public universities, strong engineering programs, and thriving economy." },
-  { name: "Greece", flag: "GR", color: "from-blue-500 to-blue-700", description: "Affordable living costs with quality European education standards." },
-  { name: "Hungary", flag: "HU", color: "from-red-500 to-green-600", description: "Excellent medical and engineering programs with affordable tuition." },
+  { name: "USA", image: "/images/usa.png", description: "Top-ranked universities with world-class research facilities and diverse campus life." },
+  { name: "UK", image: "/images/uk.png", description: "Prestigious institutions with centuries of academic excellence and global recognition." },
+  { name: "Canada", image: "/images/canada.png", description: "Welcoming immigration policies, affordable education, and excellent post-study work options." },
+  { name: "Australia", image: "/images/australia.png", description: "High-quality education system with strong focus on research and innovation." },
+  { name: "New Zealand", image: "/images/newzealand.png", description: "Safe, friendly environment with globally recognized qualifications." },
+  { name: "Dubai", image: "/images/dubai.png", description: "Emerging educational hub with international campuses and career opportunities." },
+  { name: "France", image: "/images/france.png", description: "Rich cultural heritage with top business schools and affordable public universities." },
+  { name: "Germany", image: "/images/germany.png", description: "Tuition-free public universities, strong engineering programs, and thriving economy." },
+  { name: "Greece", image: "/images/greece.png", description: "Affordable living costs with quality European education standards." },
+  { name: "Hungary", image: "/images/hungary.png", description: "Excellent medical and engineering programs with affordable tuition." },
+];
+
+const immigrationPrograms = [
+  { name: "Canada Express Entry", description: "Fast-track permanent residency pathway for skilled workers." },
+  { name: "Ontario Immigrant Nominee Program", description: "Provincial nomination for Ontario-based opportunities." },
+  { name: "Saskatchewan Immigrant Nominee Program", description: "Immigration pathway for Saskatchewan province." },
+  { name: "Quebec Immigration", description: "Unique immigration program for French-speaking province." },
+  { name: "Manitoba Provincial Nominee", description: "Dedicated pathway for Manitoba skilled workers." },
+  { name: "Alberta Advantage Immigration", description: "Immigration program for Alberta province." },
 ];
 
 export default function CountriesSection() {
   const [activeTab, setActiveTab] = useState<"education" | "immigration">("education");
-
-  const immigrationPrograms = [
-    { name: "Canada Express Entry", description: "Fast-track permanent residency pathway for skilled workers." },
-    { name: "Ontario Immigrant Nominee Program", description: "Provincial nomination for Ontario-based opportunities." },
-    { name: "Saskatchewan Immigrant Nominee Program", description: "Immigration pathway for Saskatchewan province." },
-    { name: "Quebec Immigration", description: "Unique immigration program for French-speaking province." },
-    { name: "Manitoba Provincial Nominee", description: "Dedicated pathway for Manitoba skilled workers." },
-    { name: "Alberta Advantage Immigration", description: "Immigration program for Alberta province." },
-  ];
 
   return (
     <section id="countries" className="py-20 lg:py-28 bg-gradient-to-b from-[#f0f5fa] to-white" data-testid="section-countries">
@@ -78,14 +78,30 @@ export default function CountriesSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="group bg-white rounded-2xl p-5 border border-gray-100 shadow-sm text-center transition-all duration-300 cursor-pointer hover-elevate"
+                className="group bg-white rounded-2xl border border-gray-100 shadow-sm text-center transition-all duration-300 cursor-pointer hover-elevate"
                 data-testid={`card-country-${country.name.toLowerCase()}`}
               >
-                <div className={`w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br ${country.color} flex items-center justify-center shadow-md`}>
-                  <MapPin className="w-6 h-6 text-white" />
+                <div className="relative h-32 rounded-t-2xl overflow-hidden">
+                  <img
+                    src={country.image}
+                    alt={`Study in ${country.name}`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    data-testid={`img-country-${country.name.toLowerCase()}`}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-3">
+                    <div className="flex items-center justify-center gap-1.5">
+                      <MapPin className="w-3.5 h-3.5 text-white" />
+                      <span className="text-white font-semibold text-sm">Study in {country.name}</span>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="font-semibold text-[#032b66] text-sm mb-1">Study in {country.name}</h3>
-                <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">{country.description}</p>
+                <div className="p-4">
+                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">{country.description}</p>
+                  <a href="#contact" className="inline-flex items-center gap-1 text-xs font-semibold text-[#046bd2] mt-2" data-testid={`link-country-${country.name.toLowerCase()}`}>
+                    Learn More <ArrowRight className="w-3 h-3" />
+                  </a>
+                </div>
               </motion.div>
             ))}
           </div>
