@@ -49,7 +49,7 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">S</span>
               </div>
               <div>
-                <span className="font-bold text-lg tracking-tight">SWEC</span>
+                <span className="font-bold text-lg tracking-tight">AKANKSHA</span>
                 <span className="block text-[10px] text-blue-300 -mt-1 tracking-wide">VISA CONSULTANT</span>
               </div>
             </div>
