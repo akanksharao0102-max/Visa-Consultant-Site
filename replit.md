@@ -15,7 +15,7 @@ A professional website for AKANKSHA Visa Consultant, a leading overseas educatio
 - `client/src/components/Navbar.tsx` - Top bar + sticky navigation header
 - `client/src/components/HeroSection.tsx` - Hero banner with CTA
 - `client/src/components/AboutSection.tsx` - About company with stats
-- `client/src/components/WhyChooseUs.tsx` - SWEC values (S-W-E-C)
+- `client/src/components/WhyChooseUs.tsx` - AKANKSHA values (S-W-E-C)
 - `client/src/components/ServicesSection.tsx` - Four main services
 - `client/src/components/CountriesSection.tsx` - Study abroad + immigration destinations
 - `client/src/components/TestimonialsSection.tsx` - Client testimonials with pagination

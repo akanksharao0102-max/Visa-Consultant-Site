@@ -6,7 +6,7 @@ const items = [
     letter: "S",
     title: "Success",
     icon: Target,
-    description: "Success is the hallmark of SWEC Visa, a leading overseas education consultant in Ahmedabad and Surat. With a proven track record in securing student visas for UK, USA, Canada, and Australia, SWEC ensures your success is a shared achievement.",
+    description: "Success is the hallmark of AKANKSHA Visa, a leading overseas education consultant in Ahmedabad and Surat. With a proven track record in securing student visas for UK, USA, Canada, and Australia, AKANKSHA ensures your success is a shared achievement.",
     color: "from-blue-500 to-blue-700",
   },
   {
@@ -20,14 +20,14 @@ const items = [
     letter: "E",
     title: "Effective & Efficient",
     icon: Zap,
-    description: "At SWEC Visa, we streamline processes for student visas and dependent visas to deliver efficient and satisfying results. Whether you're aiming for UG, PG, and Bachelor's abroad or seeking international scholarships, we ensure your dreams are achieved.",
+    description: "At AKANKSHA Visa, we streamline processes for student visas and dependent visas to deliver efficient and satisfying results. Whether you're aiming for UG, PG, and Bachelor's abroad or seeking international scholarships, we ensure your dreams are achieved.",
     color: "from-indigo-500 to-purple-600",
   },
   {
     letter: "C",
     title: "Career Oriented",
     icon: Briefcase,
-    description: "SWEC's commitment doesn't end with visas or admissions — it extends to your entire career journey. With expertise in immigration services and support in preparing for IELTS, PTE, and TOEFL, you are not just an applicant but a success story.",
+    description: "AKANKSHA's commitment doesn't end with visas or admissions — it extends to your entire career journey. With expertise in immigration services and support in preparing for IELTS, PTE, and TOEFL, you are not just an applicant but a success story.",
     color: "from-purple-500 to-pink-600",
   },
 ];
