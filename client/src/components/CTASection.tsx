@@ -22,7 +22,7 @@ export default function CTASection() {
             Your Dream, Our Mission
           </h2>
           <p className="text-blue-100/80 text-lg lg:text-xl mb-10 max-w-2xl mx-auto">
-            Connect with SWEC's expert assistance and take the first step towards your international dreams
+            Connect with AKANKSHA's expert assistance and take the first step towards your international dreams
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -43,8 +43,8 @@ export default function WhyChooseUs() {
           className="text-center mb-16"
         >
           <span className="inline-block text-sm font-semibold text-[#046bd2] uppercase tracking-wider mb-3" data-testid="text-section-label">Why Choose Us</span>
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#032b66] mb-4" data-testid="text-swec-means">
-            What <span className="text-[#046bd2]">SWEC</span> Means
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#032b66] mb-4" data-testid="text-AKANKSHA-means">
+            What <span className="text-[#046bd2]">AKANKSHA</span> Means
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Our name reflects our core values that drive us to deliver exceptional service

@@ -76,7 +76,7 @@ export default function Navbar() {
                 <span className="text-white font-bold text-lg lg:text-xl">S</span>
               </div>
               <div>
-                <span className="font-bold text-lg lg:text-xl text-[#032b66] tracking-tight">SWEC</span>
+                <span className="font-bold text-lg lg:text-xl text-[#032b66] tracking-tight">AKANKSHA</span>
                 <span className="block text-[10px] lg:text-xs text-muted-foreground -mt-1 tracking-wide">VISA CONSULTANT</span>
               </div>
             </a>

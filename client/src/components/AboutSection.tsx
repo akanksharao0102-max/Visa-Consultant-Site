@@ -27,7 +27,7 @@ export default function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <span className="inline-block text-sm font-semibold text-[#046bd2] uppercase tracking-wider mb-3">About SWEC</span>
+            <span className="inline-block text-sm font-semibold text-[#046bd2] uppercase tracking-wider mb-3">About AKANKSHA</span>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#032b66] mb-5 leading-tight" data-testid="text-about-title">
               Your Gateway to{" "}
               <span className="text-[#046bd2]">Your dreams</span>{" "}
