@@ -54,9 +54,9 @@ export default function Navbar() {
               <Phone className="w-3.5 h-3.5" />
               <span>Surat: +91 8000 968420</span>
             </a>
-            <a href="mailto:info@swecvisaconsultant.com" className="flex items-center gap-2 opacity-90 transition-opacity" data-testid="link-email">
+            <a href="mailto:akanksha@swecvisaconsultant.com" className="flex items-center gap-2 opacity-90 transition-opacity" data-testid="link-email">
               <Mail className="w-3.5 h-3.5" />
-              <span>info@swecvisaconsultant.com</span>
+              <span>akanksha@swecvisaconsultant.com</span>
             </a>
           </div>
           <div className="flex items-center gap-3">
