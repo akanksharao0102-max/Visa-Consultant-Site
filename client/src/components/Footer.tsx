@@ -53,7 +53,7 @@ export default function Footer() {
                 <span className="block text-[10px] text-blue-300 -mt-1 tracking-wide">VISA CONSULTANT</span>
               </div>
             </div>
-            <p className="text-blue-200/70 text-sm leading-relaxed mb-5">
+            <p className="text-red-200/70 text-sm leading-relaxed mb-5">
               Your trusted partner for overseas education, immigration, and visa services across India with offices in Ahmedabad and Surat.
             </p>
             <div className="flex gap-3">
