@@ -38,7 +38,7 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button size="lg" className="bg-white text-[#046bd2] font-semibold no-default-hover-elevate no-default-active-elevate" asChild>
+             <Button size="lg" className="bg-red-600 text-white font-semibold no-default-hover-elevate no-default-active-elevate" asChild>
                 <a href="#contact" data-testid="button-hero-consultation">
                   Consultation
                   <ArrowRight className="w-5 h-5 ml-2" />
