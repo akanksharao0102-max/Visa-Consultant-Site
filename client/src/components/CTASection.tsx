@@ -19,7 +19,7 @@ export default function CTASection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 leading-tight" data-testid="text-cta-title">
-            Think Broad to Reach Abroad
+            Your Dream, Our Mission
           </h2>
           <p className="text-blue-100/80 text-lg lg:text-xl mb-10 max-w-2xl mx-auto">
             Connect with SWEC's expert assistance and take the first step towards your international dreams

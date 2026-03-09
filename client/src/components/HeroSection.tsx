@@ -26,9 +26,9 @@ export default function HeroSection() {
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-6" data-testid="text-hero-title">
-              Think Broad to{" "}
+              Your Dream{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-200">
-                Reach Abroad
+                Our Mission
               </span>
             </h1>
 
