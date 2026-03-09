@@ -34,7 +34,7 @@ export default function HeroSection() {
 
             <p className="text-lg lg:text-xl text-blue-100/80 mb-8 max-w-xl leading-relaxed" data-testid="text-hero-description">
               Your trusted partner for overseas education, immigration, and visa services. 
-              SWEC Visa Consultant guides you every step of the way to your global dreams.
+              AKANKSHA Visa Consultant guides you every step of the way to your global dreams.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

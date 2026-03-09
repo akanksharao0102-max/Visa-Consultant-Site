@@ -157,7 +157,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-blue-200/50" data-testid="text-copyright">
-            &copy; {new Date().getFullYear()} SWEC Visa Consultant. All rights reserved.
+            &copy; {new Date().getFullYear()} AKANKSHA Visa Consultant. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-blue-200/50">
             <a href="#" className="transition-colors" data-testid="link-privacy">Privacy Policy</a>

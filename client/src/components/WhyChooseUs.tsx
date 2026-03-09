@@ -13,7 +13,7 @@ const items = [
     letter: "W",
     title: "Wisdom",
     icon: Lightbulb,
-    description: "SWEC Visa offers expert guidance for your study abroad journey. Our experienced visa consultants provide the wisdom to make well-informed decisions for your student visa applications, ensuring the right path to success.",
+    description: "AKANSKHA Visa offers expert guidance for your study abroad journey. Our experienced visa consultants provide the wisdom to make well-informed decisions for your student visa applications, ensuring the right path to success.",
     color: "from-cyan-500 to-blue-600",
   },
   {

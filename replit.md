@@ -1,7 +1,7 @@
-# SWEC Visa Consultant Website
+# AKANKSHA Visa Consultant Website
 
 ## Overview
-A professional website for SWEC Visa Consultant, a leading overseas education and immigration consultancy based in Ahmedabad and Surat, Gujarat, India. The website showcases their services, destinations, testimonials, and contact information.
+A professional website for AKANKSHA Visa Consultant, a leading overseas education and immigration consultancy based in Ahmedabad and Surat, Gujarat, India. The website showcases their services, destinations, testimonials, and contact information.
 
 ## Architecture
 - **Frontend**: React with TypeScript, styled with Tailwind CSS and shadcn/ui components

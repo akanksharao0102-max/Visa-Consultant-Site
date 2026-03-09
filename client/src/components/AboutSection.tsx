@@ -34,7 +34,7 @@ export default function AboutSection() {
               & Immigration
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6 text-base">
-              SWEC Visa Consultant is a premier overseas education and immigration consultancy based in Ahmedabad and Surat, Gujarat. We specialize in helping students and professionals realize their dreams of studying, working, and settling abroad.
+              AKANKSHA Visa Consultant is a premier overseas education and immigration consultancy based in Ahmedabad and Surat, Gujarat. We specialize in helping students and professionals realize their dreams of studying, working, and settling abroad.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8 text-base">
               With our team of experienced professionals, we provide comprehensive support for student visas, immigration applications, and language test preparation. Our commitment to excellence has helped hundreds of aspirants achieve their global dreams.

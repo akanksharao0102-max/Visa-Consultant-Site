@@ -3,7 +3,7 @@ import { Star, Quote, MapPin } from "lucide-react";
 import { useState } from "react";
 
 const testimonials = [
-  { name: "Dhruvi Mahyavanshi", location: "Surat", text: "SWEC Visa Consultant made my dream of studying in Canada a reality. Their team guided me through every step of the visa process with utmost professionalism.", rating: 5 },
+  { name: "Dhruvi Mahyavanshi", location: "Surat", text: "AKANKSHA Visa Consultant made my dream of studying in Canada a reality. Their team guided me through every step of the visa process with utmost professionalism.", rating: 5 },
   { name: "Priyanshu Talreja", location: "Surat", text: "The coaching at SWEC was exceptional. I scored well above my target in IELTS, and their visa guidance was seamless. Highly recommend their services!", rating: 5 },
   { name: "Divya Patel", location: "Surat", text: "From university selection to visa approval, SWEC handled everything perfectly. Their expert counselors truly understand the overseas education landscape.", rating: 5 },
   { name: "Rohan Premani", location: "Surat", text: "I am grateful to SWEC for helping me secure admission to a top UK university. Their knowledge and dedication are unmatched in the industry.", rating: 5 },
