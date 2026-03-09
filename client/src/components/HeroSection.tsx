@@ -82,7 +82,7 @@ export default function HeroSection() {
                       <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-4`}>
                         <item.icon className="w-6 h-6 text-white" />
                       </div>
-                      <h3 className="text-white font-semibold text-sm mb-1">{item.title}</h3>
+                      <h3 className="text-red font-semibold text-sm mb-1">{item.title}</h3>
                       <p className="text-blue-200/60 text-xs leading-relaxed">{item.desc}</p>
                     </div>
                   ))}
