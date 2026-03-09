@@ -30,7 +30,7 @@ export default function AboutSection() {
             <span className="inline-block text-sm font-semibold text-[#046bd2] uppercase tracking-wider mb-3">About SWEC</span>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#032b66] mb-5 leading-tight" data-testid="text-about-title">
               Your Gateway to{" "}
-              <span className="text-[#046bd2]">Global Education</span>{" "}
+              <span className="text-[#046bd2]">Your dreams</span>{" "}
               & Immigration
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6 text-base">
