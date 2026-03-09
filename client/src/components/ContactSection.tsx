@@ -33,7 +33,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    lines: ["info@swecvisaconsultant.com"],
+    lines: ["akanksha@swecvisaconsultant.com"],
   },
 ];
 
