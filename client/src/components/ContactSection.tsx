@@ -144,10 +144,11 @@ export default function ContactSection() {
                       data-testid="select-service"
                       defaultValue=""
                     >
+                      <button type="button" data-testid="button-download-brochure">Download Brochure</button>
                       <option value="" disabled>Select Service</option>
                       <option value="overseas-education">Overseas Education</option>
                       <option value="coaching">Coaching (IELTS/PTE/TOEFL)</option>
-                      <option value="immigration">Immigration Services</option>
+                      <option value="immigration">Send Message</option>
                       <option value="visa">Visa Services</option>
                     </select>
                   </div>
