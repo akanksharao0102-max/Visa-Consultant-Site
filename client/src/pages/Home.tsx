@@ -25,6 +25,8 @@ export default function Home() {
       <InsightsSection />
       <UniversityPartners />
       <ContactSection />
+      <TestimonialsSection />
+      <CTASection />
       <Footer />
     </div>
   );
