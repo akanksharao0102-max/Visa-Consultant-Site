@@ -22,6 +22,7 @@ export default function Home() {
       <CountriesSection />
       <TestimonialsSection />
       <CTASection />
+       <CTASection />
       <InsightsSection />
       <UniversityPartners />
       <ContactSection />
