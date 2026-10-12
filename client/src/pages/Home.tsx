@@ -21,10 +21,7 @@ export default function Home() {
       <ServicesSection />
       <CountriesSection />
       <TestimonialsSection />
-      <InsightsSection />
-      <InsightsSection />
-      <InsightsSection />
-      <InsightsSection />
+      <InsightsSection />....................................
       <UniversityPartners />
       <ContactSection />
       <Footer />
