@@ -22,17 +22,7 @@ const navItems = [
       { label: "Visa Services", href: "#services", icon: FileText },
     ]
   },
-  {
-    label: "Countries", href: "#countries",
-    children: [
-      { label: "Study in USA", href: "#countries" },
-      { label: "Study in UK", href: "#countries" },
-      { label: "Study in Canada", href: "#countries" },
-      { label: "Study in Australia", href: "#countries" },
-      { label: "Study in New Zealand", href: "#countries" },
-      { label: "Study in Germany", href: "#countries" },
-    ]
-  },
+  
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
