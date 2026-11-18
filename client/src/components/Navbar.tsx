@@ -23,7 +23,7 @@ const navItems = [
     ]
   },
   {
-    label: "Countries", href: "#countries",
+    label: "Destinations", href: "#countries",
     children: [
       { label: "Study in USA", href: "#countries" },
       { label: "Study in UK", href: "#countries" },
