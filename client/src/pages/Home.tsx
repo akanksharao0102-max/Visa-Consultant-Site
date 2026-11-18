@@ -14,6 +14,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen" data-testid="page-home">
+      <Contact Our Team />
       <Navbar />
       <HeroSection />
       <AboutSection />
