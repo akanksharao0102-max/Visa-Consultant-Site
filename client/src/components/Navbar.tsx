@@ -118,11 +118,7 @@ export default function Navbar() {
               ))}
             </nav>
 
-            <div className="hidden lg:flex items-center gap-3">
-              <Button asChild>
-                <a href="#contact" data-testid="button-free-consultation">Free Consultation</a>
-              </Button>
-            </div>
+            
 
             <button
               className="lg:hidden p-2 text-gray-700"
